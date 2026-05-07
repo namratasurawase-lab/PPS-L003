@@ -1,0 +1,16 @@
+# include <stdio.h>
+int main(){
+
+    int percentage;
+    printf ("enter percentage marks:\t);
+    scanf ("%d",& percentage);
+
+    if (percentage>=40){
+    printf ("result:PASS\n");
+    }
+
+    else{
+        printf("result:FAIL\n");
+    }
+    return 0;
+}
