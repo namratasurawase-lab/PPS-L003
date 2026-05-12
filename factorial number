@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main (){
+    int fact,temp=1,i;
+    printf("enter the number \t");
+    scanf ("%d,&fact);
+
+    for (i=1; i<=fact; i++){
+        temp=temp*i;
+    }
+    printf ("the factorial is %d is %d", fact, temp);
+
+    return 0;
+}
