@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main (){
+
+    int s_pin, u_pin, a,b,c,d,e,f;
+    s_pin = 2222;
+
+    b = a%1000;
+    c = c%1000;
+    d = c/500;
+    e = c%500;
+    f = e/100;
+    printf ("enter the pin :\t");
+    scanf ("%d",& u_pin);
+
+    if ( s_pin == u_pin ){
+        printf ("CORRECT PIN");
+
+        printf ("\n enter the amount :\t");
+        scanf ("%d",&a);
+
+     printf ("the amount %d will require :\n %d notes of 1000 \n %d notes of 500 \n %d notes of 100", a, b, d, f );
+   }
+
+   else {
+       printf ("INCORRECT PIN");
+   }
+
+   return 0;
+}
